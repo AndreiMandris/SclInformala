@@ -6,7 +6,6 @@
 package HomeworkStrings;
 
 import static java.lang.Character.isUpperCase;
-import static java.lang.Character.isUpperCase;
 
 /**
  *
