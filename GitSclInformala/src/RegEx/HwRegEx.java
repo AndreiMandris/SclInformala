@@ -34,7 +34,7 @@ public class HwRegEx {
         // I've grouped the digits of the pattern into:
         // -the first digit(1/2), the month, the day, the year, the 6 remaining digits
 
-        Pattern checkRegex = Pattern.compile("(1|2)(0[1-9]|1[0-2])(\\d\\d)(\\d\\d)(\\d\\d\\d\\d\\d\\d)");
+        Pattern checkRegex = Pattern.compile("^(1|2)(0[1-9]|1[0-2])(\\d\\d)(\\d\\d)(\\d\\d\\d\\d\\d\\d)$");
         Matcher regexMatcher = checkRegex.matcher(currentString);
         boolean found = false;
         int s1, s2, s3, s4;
