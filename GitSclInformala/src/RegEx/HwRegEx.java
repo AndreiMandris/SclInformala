@@ -13,20 +13,15 @@ import java.util.regex.*;
  * @author Andrei
  * @version 1.0
  */
-
 public class HwRegEx {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        
         String str = null;
-        for (int i = 3; i > 0; i--) {
-            System.out.print("Introduce your PID for validation please: ");
-            str = in.nextLine();
-            validatePID(str);
-            System.out.println("You've got " + (i-1) + " attempts left.");
-        }
-        
+        System.out.print("Introduce your PID for validation please: ");
+        str = in.nextLine();
+        validatePID(str);
+
     }
 
     /**
@@ -83,7 +78,7 @@ public class HwRegEx {
 
         if (!found) {
             System.out.println("INCORRECT PID!");
-            
+
         }
     }
 }
