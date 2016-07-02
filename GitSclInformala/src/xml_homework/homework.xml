@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <ebooks>
+        <ebook>
+            <isbn>
+                978-606-741-668-8
+            </isbn>
+            
+            <title>
+                Iubesti doar odata
+            </title>
+            
+            <authors>
+                Johanna Lindsey
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android
+            </compatible-devices>
+            
+            <price>
+                9.28
+            </price>
+                
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-606-741-912-2
+            </isbn>
+            
+            <title>
+                Cartea vietii
+            </title>
+            
+            <authors>
+                Lucian Boia
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android
+            </compatible-devices>
+            
+            <price>
+                27.9
+            </price>
+                
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-973-50-3867-0
+            </isbn>
+            
+            <title>
+                De ce este Romania altfel?
+            </title>
+            
+            <authors>
+                Lucian Boia
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Nook, Sony
+            </compatible-devices>
+            
+            <price>
+                10.76
+            </price>
+                
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-606-686-303-2
+            </isbn>
+            
+            <title>
+                Dulce supunere
+            </title>
+            
+            <authors>
+                Maya Blanks
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Sony
+            </compatible-devices>
+            
+            <price>
+                11.54
+            </price>
+                
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-9975-3093-1-8
+            </isbn>
+            
+            <title>
+                De vorba cu Emma
+            </title>
+            
+            <authors>
+                Vitali Cipileaga
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Nook, Sony, Treksto
+            </compatible-devices>
+            
+            <price>
+                9.40
+            </price>
+                
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-973-46-3120-9
+            </isbn>
+            
+            <title>
+                Cel care nu ma asteapta
+            </title>
+            
+            <authors>
+                Parinoush Saniee
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Sony
+            </compatible-devices>
+            
+            <price>
+                13.12
+            </price>
+            
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-606-686-832-7
+            </isbn>
+            
+            <title>
+                Scoala Noptii
+            </title>
+            
+            <authors>
+                Deborah Harkness
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Sony
+            </compatible-devices>
+            
+            <price>
+                27.09
+            </price>
+            
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-606-21-0089-6
+            </isbn>
+            
+            <title>
+                Cartea pierduta a vrajitoarelor
+            </title>
+            
+            <authors>
+                Deborah Harkness
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Nook, Sony, Trekstor
+            </compatible-devices>
+            
+            <price>
+                20.90
+            </price>
+            
+        </ebook>
+        
+        <ebook>
+            <isbn>
+                978-973-50-3262-3
+            </isbn>
+            
+            <title>
+                Germanofilii
+            </title>
+            
+            <authors>
+                Lucian Boia
+            </authors>
+            
+            <compatible-devices>
+                PC/Mac, iPad/iPhone, Android, Nook, Sony
+            </compatible-devices>
+            
+            <price>
+                15.41
+            </price>
+            
+        </ebook>
+    </ebooks>
+    
+    <clients>
+        <client>
+            <id>
+                1
+            </id>
+
+            <first_name>
+                Marius
+            </first_name>
+
+            <last_name>
+                Popescu
+            </last_name>
+
+            <permission>
+                ADMIN
+            </permission>
+        </client>
+        
+        <client>
+            <id>
+                2
+            </id>
+
+            <first_name>
+                George
+            </first_name>
+
+            <last_name>
+                Costea
+            </last_name>
+
+            <permission>
+                ADMIN
+            </permission>
+        </client>
+        
+        <client>
+            <id>
+                3
+            </id>
+                
+            <first_name>
+                Bogdan
+            </first_name>
+                
+            <last_name>
+                Grigorescu
+            </last_name>
+
+            <permission>
+                USER
+            </permission>
+        </client>
+        
+        <client>
+            <id>
+                4
+
+            </id>
+
+            <first_name>
+                Teodor
+            </first_name>
+
+            <last_name>
+                Stancu
+            </last_name>
+
+            <permission>
+                USER
+            </permission>
+        </client>
+        
+        <client>
+            <id>
+                5
+            </id>
+
+            <first_name>
+                Victor
+            </first_name>
+
+            <last_name>
+                Ilie
+            </last_name>
+
+            <permission>
+                USER
+            </permission>
+        </client>
+    </clients>
+    
+    <orders>
+        <order>
+            <id>
+                1
+            </id>
+            
+            <client_code>
+                1
+            </client_code>
+            
+            <ebook_code>
+                978-606-741-668-8
+            </ebook_code>
+            
+            <status>
+                DELIVERED
+            </status>
+            
+            <paid>
+                YES
+            </paid>
+        </order>
+        
+        <order>
+            <id>
+                2
+            </id>
+            
+            <client_code>
+                3
+            </client_code>
+            
+            <ebook_code>
+                978-606-741-912-2
+            </ebook_code>
+            
+            <status>
+                IN PROGRESS
+            </status>
+            
+            <paid>
+                NO
+            </paid>
+        </order>
+        
+        <order>
+            <id>
+                3
+            </id>
+            
+            <client_code>
+                4
+            </client_code>
+            
+            <ebook_code>
+                978-973-50-3867-0
+            </ebook_code>
+            
+            <status>
+                DELIVERED
+            </status>
+            
+            <paid>
+                YES
+            </paid>
+        </order>
+        
+        <order>
+            <id>
+                4
+            </id>
+            
+            <client_code>
+                2
+            </client_code>
+            
+            <ebook_code>
+                978-606-686-303-2
+            </ebook_code>
+            
+            <status>
+                IN PROGRESS
+            </status>
+            
+            <paid>
+                YES
+            </paid>
+        </order>
+        
+        <order>
+            <id>
+                5
+            </id>
+            
+            <client_code>
+                5
+            </client_code>
+            
+            <ebook_code>
+                978-9975-3093-1-8
+            </ebook_code>
+            
+            <status>
+                DELIVERED
+            </status>
+            
+            <paid>
+                YES
+            </paid>
+        </order>
+        
+        <order>
+            <id>
+                6
+            </id>
+            
+            <client_code>
+                1
+            </client_code>
+            
+            <ebook_code>
+                978-606-21-0089-6
+            </ebook_code>
+            
+            <status>
+                DELIVERED
+            </status>
+            
+            <paid>
+                YES
+            </paid>
+        </order>
+    </orders>
+    
+    
+</root>
